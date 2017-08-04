@@ -244,8 +244,8 @@ public class Library {
 	/*
 	 * Checks if a int n is 0 to s.length pandigital. Taking s.length = 9 gives 0 to 9 pandigital. 
 	 * 
-     * @param	s  string to check.
-     * @return	   true if 0 to s.length pandigital, false otherwise.
+         * @param  s    string to check.
+         * @return	true if 0 to s.length pandigital, false otherwise.
 	 */
 
 	public static boolean zeroPandigital(String s) {
