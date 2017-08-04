@@ -16,10 +16,10 @@ public class Library {
 	 * sepearted by commas, with each line having n integers. In total there should be
 	 * m rows.
 	 * 
-	 * @param 	m 		number of rows. 
-	 * @param 	n 		number of columns.
-	 * @param 	input 	file path of txt.file 
-	 * @return 			2d array of dimensions m x n.
+	 * @param   m 		number of rows. 
+	 * @param   n 		number of columns.
+	 * @param   input 	file path of txt.file 
+	 * @return 		2d array of dimensions m x n.
 	 */
 
 	public static int[][] txtTo2DArray(int m, int n, String input) throws FileNotFoundException {
@@ -43,7 +43,7 @@ public class Library {
 	/*
 	 * Computes n!
 	 * 
-	 * @param 	n	ending index.
+	 * @param   n	ending index.
 	 * @return  n!
 	 */
 
@@ -58,8 +58,8 @@ public class Library {
 	/*
 	 * Eratosthenes's prime sieve up to n.
 	 * 
-	 * @param 	n 	stopping index.
-	 * @return 		boolean array with true entries where prime.
+	 * @param  n 	stopping index.
+	 * @return 	boolean array with true entries where prime.
 	 */
 
 	public static boolean[] primeSieve(int n) {
@@ -80,8 +80,8 @@ public class Library {
 	/*
 	 * Eratosthenes's prime sieve up to n.
 	 * 
-	 * @param   end 	stopping index.
-	 * @return 			ArrayList containing only primes.
+	 * @param  end  stopping index.
+	 * @return 	ArrayList containing only primes.
 	 */
 
 	public static ArrayList<Integer> primeList(int end) {
@@ -97,7 +97,7 @@ public class Library {
 	/*
 	 * Finds all the divisors of natural number n.
 	 * 
-	 * @param 	n	number to find divisors of
+	 * @param   n	number to find divisors of
 	 * @return  n   ArrayList of ints which divide n.
 	 */
 
@@ -119,7 +119,7 @@ public class Library {
 	/*
 	 * Finds all the divisors of natural number n.
 	 * 
-	 * @param 	n	number to find divisors of
+	 * @param   n	number to find divisors of
 	 * @return      ArrayList of longs which divide n.
 	 */
 
@@ -139,7 +139,7 @@ public class Library {
 	/*
 	 * Computes the number of divisors of n.
 	 * 
-	 * @param 	n	number to find divisors of
+	 * @param   n	number to find divisors of
 	 * @return      number of divisors of n.
 	 */
 	
@@ -157,7 +157,7 @@ public class Library {
 	/*
 	 * Sums the divisors of n.
 	 * 
-	 * @param 	n	ending index.
+	 * @param   n	ending index.
 	 * @return  n   sum of divisors of n.
 	 */
 
@@ -177,7 +177,7 @@ public class Library {
 	/*
 	 * Finds all the rotations of a string. For example, 179 -> 791 -> 917.
 	 * 
-	 * @param	s	input string
+	 * @param   s	input string
 	 * @return  	array of all rotations of s.
 	 */
 
@@ -195,7 +195,7 @@ public class Library {
 	/*
 	 * Reverses the order of a string.
 	 *
-	 * @param 	s 	input string.
+	 * @param   s 	input string.
 	 * @return  	reversed s.
 	 */
 
@@ -207,8 +207,8 @@ public class Library {
 	/*
 	 * Checks if a string is a palindrome.
 	 * 
-	 * @param 	s	input string.
-	 * @return		If s is palindrome then true, false otherwise. 
+	 * @param   s	input string.
+	 * @return	if s is palindrome then true, false otherwise. 
 	 */
 
 	public static boolean palindrome(String s) {
@@ -266,9 +266,9 @@ public class Library {
 	/*
 	 * Checks if a string is a permutation of another.
 	 * 
-	 * @param 	a	first string.
-	 * @param 	b	second string.
-	 * @return		true if a is a permutation of b, false otherwise.
+	 * @param  a	first string.
+	 * @param  b	second string.
+	 * @return	true if a is a permutation of b, false otherwise.
 	 */
 
 	public static boolean isPermutation(String a, String b) {
@@ -286,8 +286,8 @@ public class Library {
 	/*
 	 * Generates Pascal's Triangle. Note n begins at 0 instead of 1, i.e pascal[0][0] actually means 1C0.
 	 * 
-	 * @param	n	stopping index
-	 * @return		generates (n-1)th row of Pascal's Triangle.
+	 * @param  n	stopping index
+	 * @return	generates (n-1)th row of Pascal's Triangle.
 	 */
 
 	public static BigInteger[][] binomial(int n) {
