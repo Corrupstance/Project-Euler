@@ -222,8 +222,8 @@ public class Library {
 	/*
 	 * Checks if a int n is 1 to n.length pandigital. Taking n = 9 gives 1 to 9 pandigital. 
 	 * 
-     * @param	n  integer to check.
-     * @return	   true if 1 to n.length pandigital, false otherwise.
+     	 * @param   n  integer to check.
+     	 * @return     true if 1 to n.length pandigital, false otherwise.
 	 */
 
 	public static boolean onePandigital(int n) {
